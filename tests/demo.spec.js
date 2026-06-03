@@ -15,6 +15,7 @@ test('has title', async ({ page }) => {
   await page.waitForTimeout(3000);
   await page.screenshot({path:'facebook.png'});
   await page.waitForTimeout(2000)
+  console.log("sangeetha")
   
   //dropdown
   await page.goto("https://vinothqaacademy.com/drop-down/");
